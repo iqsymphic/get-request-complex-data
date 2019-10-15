@@ -1,5 +1,9 @@
 'use strict';
 
+$(document).ready(function() {
+  watchSubmitForm();
+});
+
 const apiKey = "axycHWSUOV2i4BMj1vIAdvJD2UkJeQAaqC9lp7dC";
 const searchURL = "https://developer.nps.gov/api/v1/parks/";
 
